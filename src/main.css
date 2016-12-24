@@ -48,7 +48,7 @@ a:active {
   padding: 30px 25px;
 }
 /*
-* highlighting skills
+* highlighting skills-section
 */
 .skills {
   background-color: orange;
@@ -59,8 +59,12 @@ a:active {
 */
 .header {
   align-items: center;
-  background-color: #EFEFEF;
   border-top: 4px solid orange;
   text-align: center;
-  padding: 20px;
+  padding: 100px;
+  background-color: #EFEFEF;
+  background-image: url(images/tomtoes.jpg);
+  background-position: center;
+  background-repeat: repeat-x;
+  color: white;
 }
