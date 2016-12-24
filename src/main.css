@@ -1,0 +1,66 @@
+/*
+* wiping everything to get a blank slate
+*/
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*
+* general style
+*/
+body {
+  background: #F5F5F5;
+  color: #040404;
+  font-family: "Helvetica Neue", Arial, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+h1, h2, h3, h4 {
+  margin: 10px 0 15px;
+}
+p, ul {
+  margin: 10px 0;
+}
+ul li {
+  margin-left: 30px;
+  line-height: 1.4;
+}
+/*
+* link behaviour
+*/
+a:hover {
+  color: blue;
+}
+a:active {
+  position: relative;
+  top: 1px;
+}
+/*
+* page content
+*/
+.content-wrapper {
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px 25px;
+}
+/*
+* highlighting skills
+*/
+.skills {
+  background-color: orange;
+  color: white;
+}
+/*
+* page header
+*/
+.header {
+  align-items: center;
+  background-color: #EFEFEF;
+  border-top: 4px solid orange;
+  text-align: center;
+  padding: 20px;
+}
