@@ -74,3 +74,7 @@ a:active {
 .header h2{
   font-size: 28px;
 }
+/*
+*code for pushing changes on to github-pages
+*git subtree push --prefix src origin gh-pages
+*/
