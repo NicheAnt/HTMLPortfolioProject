@@ -68,3 +68,10 @@ a:active {
   background-repeat: repeat-x;
   color: white;
 }
+
+.header h1{
+  font-size-adjust: auto;
+}
+.header h2{
+  font-size-adjust: auto;
+}
