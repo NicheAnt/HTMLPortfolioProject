@@ -1,70 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
-</head>
-<body>
 
-  <header>
-    <h1>Nishant Seth</h1>
-    <h2>Tinkerer</h2>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="more.html">More</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <title>Illustration Work</title>
+    <link href="main.css" rel="stylesheet">
+  </head>
 
-  <main>
+  <body>
 
-    <section class="tagline">
-      <div class="content-wrapper">
-        <h3>About</h3>
-        <p>Nishant enjoys tinkering with technology. Web
-          technologies are new to him, but he's already
-          loving it. He also enjoys spending time in nature
-          and is always looking to conspire with other creatures.</p>
-      </div>
-    </section>
+      <!-- logo and navigation bar -->
+      <header style='background-color:#f47b20;'>
+        <!-- logo -->
+        <a href="index.html" class="logo">
+          <img src='images/files-illustration/logo.png' alt='logo'></img>
+        </a>
+        <!-- navigation bar-->
+        <nav>
+          <ul>
+            <li><a style='border-top:0.5vh solid #b35129;' href='Illustration.html'>Illustration</a></li>
+            <li><a href='index.html'>Print</a></li>
+            <li><a href='index.html'>Community</a></li>
+            <li><a href='index.html'>Education</a></li>
+          </ul>
+        </nav>
+        <!-- navigation bar rightmost element -->
+        <a href='index.html' class='contact'>
+          <img src='images/files-illustration/contact.png' alt='contact'></img>
+        </a>
+      </header>
 
-    <section class="skills">
-      <div class="content-wrapper">
-        <h3>Skills</h3>
-        <p>These are some of the technologies he is
-            currently tinkering with...<p>
-        <ul>
-            <li>audio interfaces</li>
-            <li>pedal generators</li>
-            <li>QGIS</li>
-            <li>HTML</li>
-        </ul>
-      </div>
-    </section>
+      <!-- image grid -->
+      <section class='image-grid'>
+        <div class='col1'>
 
-    <section class="contact">
-      <div class="content-wrapper">
-        <h3>Contact</h3>
-        <p>Thanks for visiting! To get in touch, write to:
-          nishant.sth at gmail dot com. For information on
-          earlier work with audio interfaces, visit the <a href="https://sites.google.com/a/regularities.org/nish/home">
-            regularities website</a> (not really, it's terrible).</p>
-      </div>
-    </section>
+          <figure class="nineties">
+            <span class='nineties_visible'>
+              <a href="/">
+                <img src='images/files-illustration/90s.jpg' alt="nineties"></img>
+              </a>
+            </span>
+            <span class='nineties_hidden'>
+              <a href="/">
+                <h1>Ode to the 90s</h1>
+                <p>//Series of screenprints//</p>
+              </a>
+            </span>
+          </figure>
+          <figure class="wiw">
+            <span class='wiw_visible'>
+              <a href="/">
+                <img src='images/files-illustration/wiw.jpg' alt="w.i.w."></img>
+              </a>
+            </span>
+            <span class='wiw_hidden'>
+              <a href="/">
+                <h1>Windows to the Wild</h1>
+                <p>//Series of Illustrations//</p>
+              </a>
+            </span>
+          </figure>
+        </div>
 
-  </main>
+        <div class='col2'>
+          <figure class="spices">
+            <span class='spices_visible'>
+              <a href="/">
+                <img src='images/files-illustration/spices.jpg' alt="spices"></img>
+              </a>
+            </span>
+            <span class='spices_hidden'>
+              <a href="/">
+                <h1>Herbs and Spices</h1>
+                <p>//Series of Illustration for a self-publication//</p>
+              </a>
+            </span>
+          </figure>
+        </div>
 
-  <footer>
-    <div class="content wrapper">
-      <h3>Credits</h3>
-      <p>This portfolio was created using <a href='https://www.codeschool.com'>
-        Code School's</a> <a href='https://github.com/codeschool/SemanticHTMLPortfolioProject'>
-        Semantic HTML Portfolio Project</a> template.</p>
-    </div>
-  </footer>
+        <div class='col3'>
+          <figure class="bww">
+            <span class='bww_visible'>
+              <a href="/">
+                <img src='images/files-illustration/bww.jpg' alt="b.w.w."></img>
+              </a>
+            </span>
+            <span class='bww_hidden'>
+              <a href="/">
+                <h1>Binary Matters:<br />
+                    Black and White Tales</h1>
+                <p>//Haikus and Illustrations//</p>
+              </a>
+            </span>
+          </figure>
+          <figure class="frog">
+            <span class='frog_visible'>
+              <a href="/">
+                <img src='images/files-illustration/frog.jpg' alt="frog"></img>
+              </a>
+            </span>
+            <span class='frog_hidden'>
+              <a href="/">
+                <h1>Forest Food Web</h1>
+                <p>//Ink Illustrations on Wood//</p>
+              </a>
+            </span>
+          </figure>
 
-</body>
+          <figure class="stones">
+            <span class='stones_visible'>
+              <a href="/">
+                <img src='images/files-illustration/stones.jpg' alt="stones"></img>
+              </a>
+            </span>
+            <span class='stones_hidden'>
+              <a href="/">
+                <h1>Gandaki</h1>
+                <p>//Painted Stones//</p>
+              </a>
+            </span>
+          </figure>
+          <figure class="journals">
+            <span class='journals_visible'>
+              <a href="/">
+                <img src='images/files-illustration/journals.jpg' alt="journals"></img>
+              </a>
+            </span>
+            <span class='journals_hidden'>
+              <a href="/">
+                <h1>Journals</h1>
+                <p>//Pages and Entries//</p>
+              </a>
+            </span>
+          </figure>
+        </div>
+
+        <div class='col4'>
+          <div class='subcol41'>
+            <figure class="birds">
+              <span class='birds_visible'>
+                <a href="/">
+                  <img src='images/files-illustration/birds.jpg' alt="birds"></img>
+                </a>
+              </span>
+              <span class='birds_hidden'>
+                <a href="/">
+                  <h1>Bird Illustrations</h1>
+                  <p>//Illustrations of the common birds of Tamil Nadu//</p>
+                </a>
+              </span>
+            </figure>
+          </div>
+
+          <div class='subcol42'>
+            <figure class="ip">
+              <span class='ip_visible'>
+                <a href="/">
+                  <img src='images/files-illustration/ip.jpg' alt="work in progress"></img>
+                </a>
+              </span>
+              <span class='ip_hidden'>
+                <a href="/">
+                  <h1>Woah!</h1>
+                  <p>blah blah blah.</p>
+                </a>
+              </span>
+            </figure>
+            <figure class="ec">
+              <span class='ec_visible'>
+                <a href="/">
+                  <img src='images/files-illustration/ec.jpg' alt="estate craft"></img>
+                </a>
+              </span>
+              <span class='ec_hidden'>
+                <a href="/">
+                  <h1>Woah!</h1>
+                  <p>blah blah blah.</p>
+                </a>
+              </span>
+            </figure>
+          </div>
+
+          <figure class="walls">
+            <span class='walls_visible'>
+              <a href="/">
+                <img src='images/files-illustration/walls.jpg' alt="walls"></img>
+              </a>
+            </span>
+            <span class='walls_hidden'>
+              <a href="/">
+                <h1>Woah!</h1>
+                <p>blah blah blah.</p>
+              </a>
+            </span>
+          </figure>
+        </div>
+      </section>
+
+
+    <!-- jquery-3 -->
+    <script src="../jquery-3.1.1.min.js"></script>
+    <!-- custom js -->
+    <script src="application.js"></script>
+
+  </body>
 </html>
